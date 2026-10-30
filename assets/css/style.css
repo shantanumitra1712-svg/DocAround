@@ -545,7 +545,7 @@ body.nav-active {
 .tab-btn {
   background-color: var(--alice-blue);
   color: var(--midnight-green);
-  padding-inline-start: 7px 30px;
+  padding: 7px 30px;
   border-radius: var(--radius-6);
   font-weight: var(--fw-700);
 }
@@ -556,7 +556,7 @@ body.nav-active {
 }
 
 .tab-text {
-  color: var(--headline-sm);
+  color: var(--midnight-green);
   margin-block: 35px;
 }
 
