@@ -420,7 +420,7 @@ body.nav-active {
 .hero-subtitle {
   color: var(--white);
   font-weight: var(--fw-500);
-  padding-inline-start: 70px;
+  padding-inline-start: 80px;
 }
 
 .hero-subtitle::before {
@@ -458,7 +458,7 @@ body.nav-active {
   padding-inline-end: 18px;
 }
 
-.hero-card .input-field ion-icon {
+.hero-card .input-wrapper ion-icon {
   position: absolute;
   top: 50%;
   right: 0;
