@@ -739,19 +739,6 @@ body.nav-active {
   margin-block-end: 20px;
 }
 
-.footer .text {
-  opacity: 0.7;
-}
-
-.footer .address {
-}
-.contact-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  margin-block-start: 12px;
-}
-
 .contact-item .item-icon {
   font-size: 4rem;
 }
