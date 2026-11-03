@@ -724,19 +724,20 @@ body.nav-active {
 }
 
 .footer-brand {
-  background-color: var(--midnight-green);
+  background-color: var(--ming);
   padding: 32px;
-  break-before: var(--radius-6);
+  border-radius: var(--radius-6);
 }
 
 .footer .logo {
   margin-block-end: 20px;
 }
 
-.footer-list-title {
-  color: var(--white);
-  font-weight: var(--fw-700);
-  margin-block-end: 20px;
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-block-start: 12px;
 }
 
 .contact-item .item-icon {
@@ -779,7 +780,7 @@ body.nav-active {
   transition: var(--transition-1);
 }
 
-.footer-link :is(:hover, :focus-visible) {
+.footer-link:is(:hover, :focus-visible) {
   color: var(--verdigris);
 }
 
