@@ -56,8 +56,6 @@ DocAround/
 │   └── js/
 │       └── script.js       # Interactive page behavior
 ├── favicon.svg
-├── index.html              # Main page
-├── style-guide.md          # Color, typography, and UI-token reference
 └── README.md
 ```
 
