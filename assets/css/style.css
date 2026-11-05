@@ -998,3 +998,49 @@ body.nav-active {
     margin-block-start: 0;
   }
 }
+
+/* responsive for larger than 992px screen */
+
+@media (min-width: 992px) {
+  /* Reused Styles */
+
+  .container {
+    max-width: 940px;
+  }
+
+  /* Hero */
+
+  .hero-banner {
+    display: block;
+    max-width: max-content;
+  }
+
+  .hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  /* Service */
+
+  .service-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* About */
+
+  .about .container {
+    grid-template-columns: 1fr 0.8fr;
+    align-items: flex-end;
+  }
+
+  .about-content {
+    padding-block-end: var(--section-padding);
+  }
+
+  .about-banner {
+    margin-inline-end: -80px;
+  }
+
+  /* Footer */
+}
